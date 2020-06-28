@@ -31,12 +31,13 @@ const workoutSchema = new Schema({
 });
 
 workoutSchema.methods.sumDuration = function () {
-    this.totalDuration = this.exercises.duration.forEach(exercise => {
-        let sum = 0;
-        sum += exercise;
-    })
+    console.log("sumDURATION:", this)
+    // this.totalDuration = this.duration.forEach(item => {
+    //     let sum = 0;
+    //     sum += item;
+    // })
 
-    return this.totalDuration;
+    // return this.totalDuration;
 }
 
 const Workout = mongoose.model("Workout", workoutSchema);

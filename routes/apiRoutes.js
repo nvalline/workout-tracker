@@ -1,4 +1,5 @@
 const db = require("../models");
+const { Workout } = require("../models");
 
 module.exports = function (app) {
     app.get("/api/workouts", (req, res) => {
@@ -14,8 +15,19 @@ module.exports = function (app) {
     });
 
     app.put("/api/workouts/:id", (req, res) => {
-        console.log("REQ.BODY:", req.body)
-        res.json({ message: "hi put" });
+        console.log("REQ.PARAMS:", req.params.id)
+        console.log(req.body)
+
+        const workout = new Workout(req.body);
+        workout.sumDuration();
+
+        db.Workout.create(workout)
+            .then(dbWorkout => {
+                res.json(dbWorkout);
+            })
+            .catch(err => {
+                console.log(err)
+            })
     });
 
     app.get("/api/workouts/range", (req, res) => {
