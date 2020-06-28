@@ -22,8 +22,22 @@ const workoutSchema = new Schema({
             reps: Number,
             sets: Number
         }
-    ]
+    ],
+    totalDuration: Number,
+    totalWeight: Number,
+    totalSets: Number,
+    totalReps: Number,
+    totalDistance: Number
 });
+
+workoutSchema.methods.sumDuration = function () {
+    this.totalDuration = this.exercises.duration.forEach(exercise => {
+        let sum = 0;
+        sum += exercise;
+    })
+
+    return this.totalDuration;
+}
 
 const Workout = mongoose.model("Workout", workoutSchema);
 
