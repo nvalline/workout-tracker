@@ -1,6 +1,7 @@
 const mongoose = require("mongoose");
 const Schema = mongoose.Schema;
 
+// Workout Model
 const workoutSchema = new Schema({
     day: {
         type: Date,
@@ -20,6 +21,7 @@ const workoutSchema = new Schema({
     totalDuration: Number
 });
 
+// Workout static to calculate total duration of exercises
 workoutSchema.statics.sumDuration = function (data) {
     let totalDuration = 0;
     const exercises = data.exercises;
