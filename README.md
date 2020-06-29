@@ -6,7 +6,7 @@
 
 > This application allows the user to log and view stats of the workouts and exercises they complete.
 
-#### [View The Site](#) - The project is live.
+#### [View The Site](https://nameless-woodland-78115.herokuapp.com) - The project is live.
 
 ---
 
@@ -49,7 +49,7 @@ The user is able to view stats of their workouts and exercises on a dashboard th
 
 Simply click the following link to load the application in your browser.
 
-#### [View The Site](#) - The project is live.
+#### [View The Site](https://nameless-woodland-78115.herokuapp.com) - The project is live.
 
 [Back To The Top](#project-name)
 
