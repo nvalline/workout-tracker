@@ -4,9 +4,9 @@
 
 <img src="./public/img/fitness-tracker.png" alt="Project Screenshot" max-height="400px">
 
-> This application allows the user to log and track their workout routines.
+> This application allows the user to log and view stats of the workouts and exercises they complete.
 
-#### [View The Site](https://powerful-springs-45034.herokuapp.com/) - The project is live.
+#### [View The Site](#) - The project is live.
 
 ---
 
@@ -25,11 +25,11 @@
 
 ## Description
 
-This application allows the user to log all the different hamburgers that he/she would like to eat. When the user devours one of the burgers, the user can click the button to indicate that they have eaten that burger.  
+This application allows the user to log the workouts and the exercises included that they complete. By utilizing a mongoDB database the user is able to log each new workout and add the various exercises to each workout.
 
-Utilizing a MYSQL database the application will retain the data entered and will deliver it back to the user when he/she returns.
+The user is able to select from 'resistance' & 'cardio' exercise types and the corresponding data types adjust to their selection. The user is able to start a workout, leave the application to perform their exercises, then return to log that exercise to the same workout.  In other words, the user does not need to keep the application open during their workouts.
 
-This application is also mobile responsive, which allows the user to utilize the application in real-time while they are devouring burgers (just like Popeye's friend, Wimpy)!
+The user is able to view stats of their workouts and exercises on a dashboard that allows the user to analyze and track their results.
 
 [Back To The Top](#project-name)
 
@@ -39,7 +39,7 @@ This application is also mobile responsive, which allows the user to utilize the
 
 ![GitHub Top Language](https://img.shields.io/github/languages/top/nvalline/workout-tracker) ![GitHub language count](https://img.shields.io/github/languages/count/nvalline/workout-tracker)
 
-- Javascript, node.js, MYSQL, Express.js, Handlebars, HTML, CSS, MVC structure
+- Javascript, node.js, mongoDB, Express.js, HTML, CSS
 
 [Back To The Top](#project-name)
 
@@ -49,7 +49,7 @@ This application is also mobile responsive, which allows the user to utilize the
 
 Simply click the following link to load the application in your browser.
 
-#### [View The Site](https://powerful-springs-45034.herokuapp.com/) - The project is live.
+#### [View The Site](#) - The project is live.
 
 [Back To The Top](#project-name)
 
@@ -57,9 +57,11 @@ Simply click the following link to load the application in your browser.
 
 ## How To Use
 
-Once the application is loaded in the browser, simply enter a burger into the text field and click 'Submit'.  This will save the burger to the 'Burgers To Eat' section.
+Once the application is loaded in the browser, simply click the 'New Workout' button to create a workout and enter the first exercise.  
 
-Once the burger has been devoured, simply click the 'Eaten' button to update the status and move the burger to the 'Burgers Devoured' section.
+Click either the 'Add Exercises' button if additional exercises are to be add to the workout or the 'Complete' button complete the workout.
+
+In the navigation bar, click 'Fitness Tracker' to return to the main page or 'Dashboard' to view the workout stats.
 
 [Back To The Top](#project-name)
 
