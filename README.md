@@ -2,9 +2,9 @@
 
 # Workout Tracker
 
-<img src="./dev_img/eat-da-burger.png" alt="Project Screenshot" max-height="400px">
+<img src="./public/img/fitness-tracker.png" alt="Project Screenshot" max-height="400px">
 
-> This application allows the user to log different hamburgers that the user would like to eat and also update the log when that burger has been eaten.
+> This application allows the user to log and track their workout routines.
 
 #### [View The Site](https://powerful-springs-45034.herokuapp.com/) - The project is live.
 
